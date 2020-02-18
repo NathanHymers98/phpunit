@@ -10,7 +10,16 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Dinosaur
 {
-    const LARGE = 20; // Creating a constant variable called 'LARGE' that is always equal to 20
+    const LARGE = 10; // Creating a constant variable called 'LARGE' that is always equal to 20
+
+    const HUGE = 30;
+
+    /**
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     * @ORM\Column(type="integer")
+     */
+    private $id;
 
     /**
      * @ORM\Column(type="integer")
@@ -26,6 +35,12 @@ class Dinosaur
      * @ORM\Column(type="boolean")
      */
     private $isCarnivorus;
+
+    /**
+     * @var Enclosure
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Enclosure", inversedBy="dinosaurs")
+     */
+    private $enclosure;
 
     public function __construct(string $genus = 'Unknown', bool $isCarnivorous = false) // Whenever a new Dinosaur object is made, it needs to be passed it's name (genus) and a boolean value which determines if it is carnivours or not
     {

@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="171e90bc-3fbf-4a61-b4a2-479981f72286" name="Default Changelist" comment="" />
+    <list default="true" id="171e90bc-3fbf-4a61-b4a2-479981f72286" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Enclosure.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Security.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Exception/DinosaursAreRunningRampantException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Exception/NotABuffetException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Service/DinosaurLengthDeterminator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Service/EnclosureBuilderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AppBundle/Entity/EnclosureTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AppBundle/Service/DinosaurLengthDeterminatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceIntegrationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceProphecyTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AppBundle/Service/EnclosureBuilderServiceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config_test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Dinosaur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Factory/DinosaurFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Factory/DinosaurFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Factory/DinosaurFactoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AppBundle/Factory/DinosaurFactoryTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -59,9 +84,19 @@
       <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/bin/.phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XvWPnMYlhAvL2cMGQWgKvcg0Bz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -70,10 +105,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AppBundle/Entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AppBundle/Service" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AppBundle/Service" />
       <recent name="$PROJECT_DIR$/src/AppBundle/Entity" />
     </key>
   </component>
@@ -87,7 +124,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581927026789</updated>
-      <workItem from="1581927030279" duration="11425000" />
+      <workItem from="1581927030279" duration="11706000" />
+      <workItem from="1582012443414" duration="18395000" />
     </task>
     <servers />
   </component>
@@ -95,14 +133,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="980" y="543" key="NewPhpClassDialog" timestamp="1581945167641">
+    <state x="1093" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1582034585872">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="980" y="543" key="NewPhpClassDialog/2560.0.3840.2160/0.0.2560.1440@0.0.2560.1440" timestamp="1581945167641" />
-    <state x="957" y="552" key="com.intellij.ide.util.TipDialog" timestamp="1581927030797">
+    <state x="1093" y="443" key="#com.intellij.ide.util.MemberChooser/2560.0.3840.2160/0.0.2560.1440@0.0.2560.1440" timestamp="1582034585872" />
+    <state x="1042" y="338" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582017343202">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="957" y="552" key="com.intellij.ide.util.TipDialog/2560.0.3840.2160/0.0.2560.1440@0.0.2560.1440" timestamp="1581927030797" />
+    <state x="1042" y="338" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2560.0.3840.2160/0.0.2560.1440@0.0.2560.1440" timestamp="1582017343202" />
+    <state x="980" y="543" key="NewPhpClassDialog" timestamp="1582032755087">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="980" y="543" key="NewPhpClassDialog/2560.0.3840.2160/0.0.2560.1440@0.0.2560.1440" timestamp="1582032755087" />
+    <state x="957" y="552" key="com.intellij.ide.util.TipDialog" timestamp="1582012446859">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="957" y="552" key="com.intellij.ide.util.TipDialog/2560.0.3840.2160/0.0.2560.1440@0.0.2560.1440" timestamp="1582012446859" />
     <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1581946289489">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
